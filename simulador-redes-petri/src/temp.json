@@ -3,74 +3,76 @@
         {
             "id": "L1",
             "nome": "lugar_L1",
-            "valor_inicial": 0,
-            "inicio": true
+            "marcas": 10
         },
         {
             "id": "L2",
-            "nome": "lugar_L2"
+            "nome": "lugar_L2",
+            "marcas": 0
         },
         {
             "id": "L3",
-            "nome": "lugar_L3"
+            "nome": "lugar_L3",
+            "marcas": 0
         },
         {
             "id": "L4",
-            "nome": "lugar_L4"
+            "nome": "lugar_L4",
+            "marcas": 0
         }
     ],
-    "transacoes": [
+    "transicoes": [
         {
             "id": "T1",
-            "nome": "transacao_T1"
+            "nome": "transicao_T1"
         },
         {
             "id": "T2",
-            "nome": "transacao_T2"
+            "nome": "transicao_T2"
         },
         {
             "id": "T3",
-            "nome": "transacao_T3"
+            "nome": "transicao_T3"
         },
         {
             "id": "T4",
-            "nome": "transacao_T4"
+            "nome": "transicao_T4"
         }
     ],
     "arcos": [
         {
-            "de": "L1",
-            "para": "T1",
+            "origem": "L1",
+            "destino": "T1",
             "peso": 2
         },
         {
-            "de": "T1",
-            "para": "L2",
+            "origem": "T1",
+            "destino": "L2",
             "peso": 1
         },
         {
-            "de": "T1",
-            "para": "L3",
+            "origem": "T1",
+            "destino": "L3",
             "peso": 1
         },
         {
-            "de": "L2",
-            "para": "T2",
+            "origem": "L2",
+            "destino": "T2",
             "peso": 1
         },
         {
-            "de": "L3",
-            "para": "T3",
+            "origem": "L3",
+            "destino": "T3",
             "peso": 1
         },
         {
-            "de": "T2",
-            "para": "L4",
+            "origem": "T2",
+            "destino": "L4",
             "peso": 3
         },
         {
-            "de": "T3",
-            "para": "L4",
+            "origem": "T3",
+            "destino": "L4",
             "peso": 2
         }
     ]
