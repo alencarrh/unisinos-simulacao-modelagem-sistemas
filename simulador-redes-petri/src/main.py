@@ -18,7 +18,7 @@ while (continuar):
     tela.print_lugares(lugares, tab=tab)
     tela.print_transicoes(transicoes, tab=tab)
 
-    estado.atualizar(estado.lugares_iniciais(lugares))
+    estado.atualizar(transicoes)
 
     iteracao += 1
     result = teclado.query_yes_no("Mostrar próximo estado?")

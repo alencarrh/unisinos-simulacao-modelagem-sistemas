@@ -1,26 +1,20 @@
 # -*- coding: utf-8 -*-
 
 
-def atualizar(lugares):
-    transicoes = transacoes_habilitadas(lugares)
+def atualizar(transicoes):
+    transicoes = transacoes_habilitadas(transicoes)
 
     for transicao in transicoes:
-        transicao.executar()
+        if transicao.habilitada:
+            transicao.executar()
 
 
-def transacoes_habilitadas(lugares):
+def transacoes_habilitadas(todas_transicoes):
     transicoes = []
-    for id_lugar in lugares:
-        lugar = lugares[id_lugar]
-        for transicao in [destino["destino"] for destino in lugar.destinos]:
-            lugares_destino = {}
-            for destino in transicao.destinos:
-                lugares_destino[destino["destino"].id] = destino["destino"]
-
-            if transicao.habilitada:
-                transicoes.append(transicao)
-
-            transicoes += transacoes_habilitadas(lugares_destino)
+    for transicao_id in todas_transicoes:
+        transicao = todas_transicoes[transicao_id]
+        if transicao.habilitada:
+            transicoes.append(todas_transicoes[transicao_id])
 
     return transicoes
 
