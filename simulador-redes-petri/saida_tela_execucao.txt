@@ -1,0 +1,43 @@
+C:\Users\alencar.hentges\AppData\Local\Programs\Python\Python37-32\python.exe C:/_a/unisinos/unisinos-simulacao-modelagem-sistemas/simulador-redes-petri/src/main.py
+Iteração: 1
+        Lugar:  L1       L2       L3       L4       L5       L6       L7       L8     
+     Marcação:  1        1        0        0        1        0        0        0      
+   Transições:  T1       T2       T3       T4       T5       T6     
+   Habilitada:  True     True     False    False    False    False  
+Mostrar próximo estado? [Y/n] y
+Iteração: 2
+        Lugar:  L1       L2       L3       L4       L5       L6       L7       L8     
+     Marcação:  0        1        1        0        0        0        0        0      
+   Transições:  T1       T2       T3       T4       T5       T6     
+   Habilitada:  False    False    True     False    False    False  
+Mostrar próximo estado? [Y/n] y
+Iteração: 3
+        Lugar:  L1       L2       L3       L4       L5       L6       L7       L8     
+     Marcação:  0        1        0        0        1        1        0        0      
+   Transições:  T1       T2       T3       T4       T5       T6     
+   Habilitada:  False    True     False    False    True     False  
+Mostrar próximo estado? [Y/n] y
+Iteração: 4
+        Lugar:  L1       L2       L3       L4       L5       L6       L7       L8     
+     Marcação:  0        0        0        1        0        0        0        1      
+   Transições:  T1       T2       T3       T4       T5       T6     
+   Habilitada:  False    False    False    True     False    False  
+Mostrar próximo estado? [Y/n] y
+Iteração: 5
+        Lugar:  L1       L2       L3       L4       L5       L6       L7       L8     
+     Marcação:  0        0        0        0        1        0        1        1      
+   Transições:  T1       T2       T3       T4       T5       T6     
+   Habilitada:  False    False    False    False    False    True   
+Mostrar próximo estado? [Y/n] y
+Iteração: 6
+        Lugar:  L1       L2       L3       L4       L5       L6       L7       L8     
+     Marcação:  0        0        0        0        1        0        0        2      
+   Transições:  T1       T2       T3       T4       T5       T6     
+   Habilitada:  False    False    False    False    False    False  
+Mostrar próximo estado? [Y/n] y
+Iteração: 7
+        Lugar:  L1       L2       L3       L4       L5       L6       L7       L8     
+     Marcação:  0        0        0        0        1        0        0        2      
+   Transições:  T1       T2       T3       T4       T5       T6     
+   Habilitada:  False    False    False    False    False    False  
+Mostrar próximo estado? [Y/n] 

@@ -24,4 +24,4 @@ class Transicao:
 
         for destino in self.destinos:
             destino["destino"].marcas = destino["destino"].marcas + destino["peso"]
-        print(self.id)
+        # print(self.id)
